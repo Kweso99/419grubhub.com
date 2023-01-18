@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Jacques' ;
+    src: url(fonts/JacquesFrancoisShadow-yA8Z.ttf);
+}
+
+@font-face {
+    font-family: 'Serif';
+    src: url(Fonts/LyonsSerif-E5BW.ttf);
+}
+
+@font-face {
+    font-family: 'Atomic';
+    src: url(Fonts/AtomicMd-3zXDZ.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url(Fonts/Arimo-mO92.ttf);
+}
+
+@font-face {
+    font-family: 'Qaskin';
+    src: url(Fonts/QaskinBlackPersonalUse-5wLG.ttf);
+}
+
+@font-face {
+    font-family: 'Swansea';
+    src: url(Fonts/Swansea-q3pd.ttf);
+}
+
+.body {
+    margin: auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    text-align: center;
+    align-content: center;
+    
+}
+.center {
+    font-family: 'Serif';
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.nav-wrapper > .center > div {
+    margin: auto;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: 'Jacques';
+    font-size: 80px;
+    font-weight: lighter;
+}
+ 
+.header h2 {
+    color:cornsilk;
+    font-family: 'Atomic';
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.nav-wrapper .center > div.nav-link-wrapper {
+  margin-right: 30px;
+  font-size: 1.0em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    text-decoration: none;
+    transition: color .5s;
+    color: cornsilk;
+}
+
+.nav-link-wrapper a:hover{
+    color: rgb(242, 255, 64);
+}
+
+.nav-link-wrapper a.active{
+    background-color: cornsilk;
+    padding: 4px;
+    color: black;
+    border-radius: 3px;
+}
+
+body {
+    background-image: url(spiritz1.PNG);
+    background-size: auto;
+    background-repeat: none;
+}
+
+p {
+    float: middle;
+    margin: auto;
+    width: 19%;
+    font-size: 30px;
+    font-style: larger;
+    color: cornsilk;
+    font-family: 'Serif';
+    margin-top: 15px;
+    padding-top: 60px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.fork-md { 
+    margin-top: 5px;
+    float: middle;
+    position:relative; top: -90px;
+    width: 262px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48%;
+}
+
+#fork {
+    box-shadow: none;
+}
+
+.card-container{
+    display: flex;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 240px;
+}
+
+img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+.intro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.card:hover .intro{
+    transform: translateY(0);
+    height: 400px;
+}
+
+h2{
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    letter-spacing: .1rem;
+}
+
+h3{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    font-size: 15px;
+    letter-spacing: .1rem;
+}
+
+p{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'serif';
+    width: 90%;
+    color: cornsilk;
+    text-align: left;
+}
+
+.mbluewater h2{
+    font-size: 30px;
+}
+
+.mbluewater h3{
+    word-spacing: 18rem;
+}
+
+.levi h2{
+    font-size: 25px;
+}
+
+.levi h3{
+    word-spacing: 20.5rem;
+    margin-top: 20px;
+}
+
+.levi p{
+    font-size: 22px;
+}
+
+.cards-container{
+    display: flex;
+    position: relative;
+}
+
+.ecard{
+    position: relative;
+    width: 260px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 240px;
+}
+
+.eintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.ecard:hover .eintro{
+    transform: translateY(0);
+    height: 400px;
+}
+
+.village h2{
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.village h3{
+    word-spacing: 12.5rem;
+    margin-top: 25px;
+}
+
+.village p{
+    font-size: 18px;
+}
+
+.barrs h2{
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+
+.barrs p{
+    font-size: 20px;
+}
+
+#barrs {
+    width: 260px;
+}
+.coffee h2{
+    font-size: 19px;
+}
+
+.coffee h3{
+    margin-top: 5px;
+    word-spacing: 11rem;
+}
+
+.coffee p{
+    font-size: 20px;
+}
+
+.bottom h4{
+    font-size: 20px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(242, 255, 64);
+    font-family: serif;
+    letter-spacing: .1rem;
+}
+
+.reserved p{
+    color: rgb(242, 255, 64);
+    align-content: center;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 20em;
+}

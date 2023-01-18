@@ -1,0 +1,439 @@
+@font-face {
+    font-family: 'Jacques' ;
+    src: url(fonts/JacquesFrancoisShadow-yA8Z.ttf);
+}
+
+@font-face {
+    font-family: 'Serif';
+    src: url(Fonts/LyonsSerif-E5BW.ttf);
+}
+
+@font-face {
+    font-family: 'Atomic';
+    src: url(Fonts/AtomicMd-3zXDZ.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url(Fonts/Arimo-mO92.ttf);
+}
+
+@font-face {
+    font-family: 'Qaskin';
+    src: url(Fonts/QaskinBlackPersonalUse-5wLG.ttf);
+}
+
+@font-face {
+    font-family: 'Swansea';
+    src: url(Fonts/Swansea-q3pd.ttf);
+}
+
+@font-face {
+    font-family: 'aliquam';
+    src: url(Fonts/AliquamUltralight-RdO6.ttf);
+}
+
+@font-face {
+    font-family: 'homizio';
+    src: url(Fonts/Homizio-dlB7.ttf);
+}
+
+
+.body {
+    margin: auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    text-align: center;
+    align-content: center;
+    
+}
+.center {
+    font-family: 'Serif';
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.nav-wrapper > .center > div {
+    margin: auto;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: 'Jacques';
+    font-size: 80px;
+    font-weight: lighter;
+}
+ 
+.header h2 {
+    color:cornsilk;
+    font-family: 'Atomic';
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.nav-wrapper .center > div.nav-link-wrapper {
+  margin-right: 30px;
+  font-size: 1.0em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    text-decoration: none;
+    transition: color .5s;
+    color: cornsilk;
+}
+
+.nav-link-wrapper a:hover{
+    color: rgb(242, 255, 64);
+}
+
+.nav-link-wrapper a.active{
+    background-color: cornsilk;
+    padding: 4px;
+    color: black;
+    border-radius: 3px;
+}
+
+body {
+    background-image: url(spiritz1.PNG);
+    background-size: auto;
+    background-repeat: none;
+}
+
+p {
+    float: middle;
+    margin: auto;
+    width: 19%;
+    font-size: 30px;
+    font-style: larger;
+    color: cornsilk;
+    font-family: 'Serif';
+    margin-top: 15px;
+    padding-top: 60px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.fork-md { 
+    margin-top: 5px;
+    float: middle;
+    position:relative; top: -90px;
+    width: 262px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48%;
+}
+
+#fork {
+    box-shadow: none;
+}
+
+.card-container{
+    display: flex;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    width: 275px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 16%;
+}
+
+img{
+    display: inline-block;
+    width: 275px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+.intro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.card:hover .intro{
+    transform: translateY(0);
+    height: 400px;
+}
+
+h2{
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    letter-spacing: .1rem;
+}
+
+h3{
+    margin-left: 10px;
+    font-family: 'homozio';
+    color: cornsilk;
+    font-size: 15px;
+    letter-spacing: .1rem;
+}
+
+p{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'homozio';
+    width: 90%;
+    color: cornsilk;
+    text-align: left;
+}
+
+.rosies h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+.rosies h3{
+    word-spacing: 10.5rem;
+    margin-top: 15px;
+}
+
+.beirut h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+.beirut h3{
+    word-spacing: 10rem;
+    margin-top: 15px;
+}
+
+.msteak h2{
+    font-size: 27px;
+    margin-bottom: 12px;
+    letter-spacing: .1rem;
+}
+
+.msteak h3{
+    word-spacing: 8.5rem;
+    margin-top: 5px;
+}
+
+.element-card{
+    display: flex;
+    position: relative;
+}
+
+.ecard{
+    position: relative;
+    width: 865px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 16%;
+}
+
+#element{
+    width: 865px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+.eintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.ecard:hover .eintro{
+    transform: translateY(0);
+    height: 300px;
+}
+
+.eintro{
+    font-size: 27px;
+    letter-spacing: .1rem;
+}
+
+.eintro h3{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    word-spacing: 47rem;
+}
+
+.third-container{
+    display: flex;
+    position: relative; 
+}
+
+.tcard{
+    position: relative;
+    width: 423px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 16%;
+}
+
+#mitalian{
+    width: 423px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+#plate{
+    width: 423px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+.tintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.tcard:hover .tintro{
+    transform: translateY(0);
+    height: 400px;
+}
+
+.mitalian h2{
+    font-size: 27px;
+    letter-spacing: .1rem;
+}
+.mitalian h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-spacing: 19.5rem;
+}
+
+.plate h2{
+    font-size: 27px;
+    letter-spacing: .1rem;
+}
+
+.plate h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-spacing: 18.5rem;
+}
+
+.bottom-card{
+    display: flex;
+    position: relative;
+}
+
+.acard{
+    position: absolute;
+    top: 100%;
+    width: 865px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: -660px;
+}
+
+#ameera{
+    width: 865px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.911);
+}
+
+.aintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.acard:hover .aintro{
+    transform: translateY(0);
+    height: 310px;
+}
+
+.aintro h2{
+    font-size: 40px;
+    letter-spacing: .1rem;
+    margin-top: 0px;
+}
+
+.aintro h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    word-spacing: 44rem;
+}
+
+.aintro p{
+    font-size: 22px;
+}
+
+.bottom h4{
+    font-size: 20px;
+    margin-top: 400px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(242, 255, 64);
+    font-family: serif;
+    letter-spacing: .1rem;
+}
+
+.reserved p{
+    color: rgb(242, 255, 64);
+    align-content: center;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 20em;
+}

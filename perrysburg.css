@@ -1,0 +1,582 @@
+@font-face {
+    font-family: 'Jacques' ;
+    src: url(fonts/JacquesFrancoisShadow-yA8Z.ttf);
+}
+
+@font-face {
+    font-family: 'Serif';
+    src: url(Fonts/LyonsSerif-E5BW.ttf);
+}
+
+@font-face {
+    font-family: 'Atomic';
+    src: url(Fonts/AtomicMd-3zXDZ.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url(Fonts/Arimo-mO92.ttf);
+}
+
+@font-face {
+    font-family: 'Qaskin';
+    src: url(Fonts/QaskinBlackPersonalUse-5wLG.ttf);
+}
+
+@font-face {
+    font-family: 'Swansea';
+    src: url(Fonts/Swansea-q3pd.ttf);
+}
+
+@font-face {
+    font-family: 'homizio';
+    src: url(Fonts/Homizio-dlB7.ttf);
+}
+
+.body {
+    margin: auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    text-align: center;
+    align-content: center;
+    
+}
+.center {
+    font-family: 'Serif';
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.nav-wrapper > .center > div {
+    margin: auto;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: 'Jacques';
+    font-size: 80px;
+    font-weight: lighter;
+}
+ 
+.header h2 {
+    color:cornsilk;
+    font-family: 'Atomic';
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.nav-wrapper .center > div.nav-link-wrapper {
+  margin-right: 30px;
+  font-size: 1.0em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    text-decoration: none;
+    transition: color .5s;
+    color: cornsilk;
+}
+
+.nav-link-wrapper a:hover{
+    color: rgb(242, 255, 64);
+}
+
+.nav-link-wrapper a.active{
+    background-color: cornsilk;
+    padding: 4px;
+    color: black;
+    border-radius: 3px;
+}
+
+body {
+    background-image: url(spiritz1.PNG);
+    background-size: auto;
+    background-repeat: none;
+}
+
+p {
+    float: middle;
+    margin: auto;
+    width: 19%;
+    font-size: 30px;
+    font-style: larger;
+    color: cornsilk;
+    font-family: 'Serif';
+    margin-top: 15px;
+    padding-top: 60px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.fork-md { 
+    margin-top: 5px;
+    float: middle;
+    position:relative; top: -90px;
+    width: 262px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48%;
+}
+
+#fork {
+    box-shadow: none;
+}
+
+.card-container{
+    display: flex;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+img{
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .911);
+}
+
+.intro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.card:hover .intro{
+    transform: translateY(0);
+    height: 300px;
+}
+
+h2{
+    margin: 5px;
+    color: cornsilk;
+    letter-spacing: .1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin-left: 10px;
+    color: cornsilk;
+    font-size: 15px;
+    letter-spacing: .1rem;
+}
+
+p{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'serif';
+    width: 90%;
+    color: cornsilk;
+    text-align: left;
+}
+
+.street h2{
+    margin-bottom: 10px;
+    font-size: 37px;
+}
+
+.street h3{
+    margin-top: 0px;
+    word-spacing: 31.5rem;
+}
+
+.street p{
+    font-size: 21px;
+}
+
+.ecard{
+    position: relative;
+    width: 275px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.eintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.ecard:hover .eintro{
+    transform: translateY(0);
+    height: 300px;
+}
+
+.perrysburgers h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.perrysburgers h3{
+    margin-top: 30px;
+    display: inline;
+}
+
+.perrysburgers h4{
+    position: absolute;
+    margin-top: -15px;
+    color: cornsilk;
+    margin-left: 255px;
+}
+
+.perrysburgers p{
+    font-size: 20px;
+}
+
+.second-container{
+    display: flex;
+    position: relative;
+}
+
+.scard{
+    position: relative;
+    width: 285px;
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.sintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.scard:hover .sintro{
+    transform: translateY(0);
+    height: 400px;
+}
+
+#nagoya{
+    width: 285px;
+    height: 400px;
+}
+
+#benchmark{
+    width: 285px;
+    height: 400px;
+}
+
+#rosarias{
+    width: 285px;
+    height: 400px;
+}
+
+.nagoya h2{
+    font-size: 35px;
+}
+.nagoya h3{
+    margin-top: 10px;
+}
+
+.nagoya p{
+    font-size: 20px;
+}
+
+.nagoya h4{
+    position: absolute;
+    margin-top: -33px;
+    color: cornsilk;
+    margin-left: 253px;
+}
+
+.rosarias h2{
+    font-size: 23px;
+    letter-spacing: 0.0rem;
+}
+
+.rosarias h3{
+    margin-top: 25px;
+    word-spacing: 10.5rem;
+}
+
+.rosarias p{
+    font-size: 21px;
+}
+
+.benchmark p{
+    font-size: 21px;
+}
+
+.benchmark h2{
+    font-size: 30px;
+}
+
+.benchmark h3{
+    margin-top: 15px;
+    word-spacing: 9rem;
+}
+
+.third-container{
+    display: flex;
+    position: relative;
+}
+
+.tcard{
+    position: relative;
+    width: 900px;
+    height: 350px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.tintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.tcard:hover .tintro{
+    transform: translateY(0);
+    height: 350px;
+}
+
+#stellas{
+    width: 900px;
+    height: 350px;
+}
+
+.stellas h2{
+    font-size: 35px;
+}
+
+.stellas h3{
+    margin-top: 10px;
+}
+
+.stellas h4{
+    position: absolute;
+    margin-top: -33px;
+    color: cornsilk;
+    margin-left: 875px;
+}
+
+.fourth-container{
+    display: flex;
+    position: absolute;
+}
+
+.fcard{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.rcard{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.rintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.fintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.fcard:hover .fintro{
+    transform: translateY(0);
+    height: 300px;
+}
+
+.rcard:hover .rintro{
+    transform: translateY(0);
+    height: 300px;
+}
+
+#basil{
+    width: 440px;
+    height: 300px;
+}
+
+#rose{
+    width: 440px;
+    height: 300px;
+}
+
+.basil h2{
+    font-size: 35px;
+}
+
+.basil h3{
+    margin-top: 10px;
+    word-spacing: 21.5rem;
+}
+
+.basil p{
+    font-size: 20px;
+}
+
+.rose h2{
+    font-size: 35px;
+}
+
+.rose h3{
+    margin-top: 10px;
+}
+
+.rose p{
+    font-size: 20px;
+}
+
+.rose h4{
+    position: absolute;
+    margin-top: -33px;
+    color: cornsilk;
+    margin-left: 405px;
+}
+
+.fifth-container{
+    display: flex;
+    position: absolute;
+    margin-top: 320px;
+}
+
+.icard{
+    position: relative;
+    width: 287px;
+    height: 350px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px;
+    inset-inline-start: 210px;
+}
+
+.iintro{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+.icard:hover .iintro{
+    transform: translateY(0);
+    height: 350px;
+}
+
+#inside{
+    width: 287px;
+    height: 350px;
+}
+
+#poco{
+    width: 287px;
+    height: 350px;
+}
+
+#swig{
+    width: 287px;
+    height: 350px;
+}
+
+.inside h3{
+    margin-top: 20px;
+    word-spacing: 11rem;
+}
+
+.inside p{
+    font-size: 21px;
+}
+
+.poco h3{
+    margin-top: 20px;
+    word-spacing: 8rem;
+}
+
+.poco p{
+    font-size: 21px;
+}
+
+.swig h3{
+    margin-top: 20px;
+    word-spacing: 10rem;
+}
+
+.swig p{
+    font-size: 21px;
+}
+

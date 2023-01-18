@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Jacques' ;
+    src: url(fonts/JacquesFrancoisShadow-yA8Z.ttf);
+}
+
+@font-face {
+    font-family: 'Serif';
+    src: url(Fonts/LyonsSerif-E5BW.ttf);
+}
+
+@font-face {
+    font-family: 'Atomic';
+    src: url(Fonts/AtomicMd-3zXDZ.ttf);
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url(Fonts/Arimo-mO92.ttf);
+}
+
+@font-face {
+    font-family: 'Qaskin';
+    src: url(Fonts/QaskinBlackPersonalUse-5wLG.ttf);
+}
+
+@font-face {
+    font-family: 'Swansea';
+    src: url(Fonts/Swansea-q3pd.ttf);
+}
+
+@font-face {
+    font-family: 'aliquam';
+    src: url(Fonts/AliquamUltralight-RdO6.ttf);
+}
+
+.body {
+    margin: auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    text-align: center;
+}
+.center {
+    font-family: 'Serif';
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.nav-wrapper > .center > div {
+    margin: auto;
+}
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: 'Jacques';
+    font-size: 80px;
+    font-weight: lighter;
+}
+ 
+h2 {
+    color:cornsilk;
+    font-family: 'Atomic';
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+
+.nav-wrapper .center > div.nav-link-wrapper {
+  margin-right: 30px;
+  font-size: 1.0em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    text-decoration: none;
+    transition: color .5s;
+    color: cornsilk;
+}
+
+.nav-link-wrapper a:hover{
+    color: rgb(242, 255, 64);
+}
+
+.nav-link-wrapper a.active{
+    background-color: cornsilk;
+    padding: 4px;
+    color: black;
+    border-radius: 3px;
+}
+
+body {
+    background-image: url(spiritz1.PNG);
+    background-size: auto;
+    background-repeat: none;
+}
+
+.bodytext p {
+    margin: auto;
+    height: 0px;
+    width: 50%;
+    font-size: 25px;
+    font-style: larger;
+    color: cornsilk;
+    font-family: 'Serif';
+    margin-top: 0%;
+    text-align: center;
+}
+
+.fork-md { 
+    margin-top: 5px;
+    float: middle;
+    position:relative; top: -90px;
+    width: 262px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48%;
+}
+
+.card {
+    width: 275px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 15%;
+    left: 8%;
+    
+}
+
+.bmark{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:  italic;
+    font-size: 12px;
+    font-weight: 500;
+    color: cornsilk;
+    margin-top: 20px;
+    padding: 4px;
+    background-color: rgb(10, 109, 109); 
+    border-radius: 3px;
+    letter-spacing: .05rem;
+    position: relative;
+    margin-right: 160px;
+}
+
+.ement{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 500;
+    color: cornsilk;
+    margin-top: -30px;
+    padding: 4px;
+    background-color: rgb(71, 33, 141);
+    border-radius: 3px;
+    letter-spacing: .05rem;
+    position: relative;
+    margin-right: 175px;
+}
+
+.ros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 500;
+    color: cornsilk;
+    margin-top: -30px;
+    padding: 4px;
+    background-color: rgb(212, 96, 0);
+    border-radius: 3px;
+    letter-spacing: .05rem;
+    position: relative;
+    margin-right: 195px;
+}
+
+.bpublic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 500;
+    color: cornsilk;
+    margin-top: -30px;
+    padding: 4px;
+    background-color: rgb(231, 21, 91);
+    border-radius: 3px;
+    letter-spacing: .05rem;
+    position: relative;
+    margin-right: 195px;
+    width: 38%;
+}
+
+.rosarias .profile .header .name h4{
+    font-family: 'serif';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.rosarias .profile .header .name h6{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 500;
+    position: relative; top: -30px;
+    color: cornsilk;
+    padding-bottom: 20px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.profile{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(70px); 
+    transition: .7s ease-in-out;
+}
+
+
+.card:hover .profile{
+    transform: translateY(0);
+    height: 100%;
+    
+}
+
+.profile .header{
+    position: relative;
+    
+}
+
+.profile .header .name h4{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: cornsilk;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.profile .header .name h6{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 500;
+    position: relative; top: -30px;
+    color: cornsilk;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    width: 90%;
+    text-align: left;
+    padding-left: 3%;
+    font-family: 'Serif';
+    color: cornsilk;
+}
+
+
+.bottom h4{
+    font-size: 20px;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(242, 255, 64);
+    font-family: serif;
+    letter-spacing: .1rem;
+}
+
+.reserved p{
+    color: rgb(242, 255, 64);
+    align-content: center;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 20em;
+}
+
